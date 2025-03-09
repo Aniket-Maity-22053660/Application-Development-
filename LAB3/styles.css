@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.card1 , .card2 , .card3 , .card4 , .card5 , .card6 , .card7 , .card8 {
+    width:500px;
+    height:700px;
+   background-color: white;
+    border-radius:12px;
+    border:1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition:all;
+    transition-timing-function:ease;
+    transition-duration: 1s;
+}
+.card1:hover, .card2:hover, .card3:hover , .card4:hover , .card5:hover , .card6:hover , .card7:hover , .card8:hover {
+    transform:scale(1.1,1.1);
+} 
+.card1 img , .card2 img , .card3 img , .card4 img , .card5 img , .card6 img , .card7 img , .card8 img{
+    width:100%;
+    height:53%;
+    border-radius:12px 12px 0 0;
+    object-fit:cover;
+}
+.card1 .card1_2 , .card2 .card2_2 , .card3 .card3_2 , .card4 .card4_2 , .card5 .card5_2 , .card6 .card6_2 , .card7 .card7_2 , .card8 .card8_2{
+    padding:5px;
+    margin:16px; 
+}
+.card1 .card1_2 p, .card2 .card2_2 p, .card3 .card3_2 p, .card4 .card4_2 p, .card5 .card5_2 p, .card6 .card6_2 p, .card7 .card7_2 p, .card8 .card8_2 p{
+    font-size:20px;
+}
+.card1 .card1_3 , .card2 .card2_3 , .card3 .card3_3 , .card4 .card4_3 , .card5 .card5_3 , .card6 .card6_3 , .card7 .card7_3 , .card8 .card8_3{
+    display:flex;
+    justify-content:space-between;
+    margin:0 23px;
+}
+button {
+    width:250px;
+    height:auto;
+    font-size: 25px;
+    transition:all;
+    transition-timing-function:ease;
+    transition-duration: 1s;
+    border-radius:20px;
+    padding:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+button:hover{
+    transform:scale(1.2,1.2);
+}
+.container {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(500px,auto)); /* Responsive column size */
+}
+
+/* Media query for screens smaller than 800px (for medium-sized screens) */
+
+
+/* Even more responsive approach using minmax() and auto-fill/auto-fit */
+
+

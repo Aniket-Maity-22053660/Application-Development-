@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition on theme change */
+}
+header {
+    padding: 10px 0px 0px 1px;    
+}
+input, select {
+    border: none;
+}
+button {
+    border: none;
+    border-radius: 2px; 
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.heading, .sub-heading {
+    box-shadow: 0px 5px 5px black;
+    line-height: 50px;
+}
+.sub-heading {
+    font-family: cursive;
+}
+#contact-form-section {
+    border-top: 1px solid gray;
+}
+#theme-selection-section {
+    border: 1px solid gray;
+    width: 50vw;
+    padding: 20px;
+    margin: 20px auto;
+}
+#contact-form {
+    width: 35%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 20px;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.card-body {
+    padding: 20px;
+}
+.card-title, .card-subtitle {
+    margin-bottom: 15px;
+}
+.card-link {
+    text-decoration: none;
+    color: #007bff;
+}
+.card-link:hover {
+    color: #0056b3;
+}

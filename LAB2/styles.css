@@ -1,0 +1,22 @@
+h1 {
+    color :yellow;
+}
+.random{
+    color :blue;
+    background-color: black;
+}
+#para1{
+    color :green;
+}
+div{
+    border:3px red solid;
+    margin :5px;
+    padding :2px;
+}
+#first{
+    color:orange;
+}
+p a{
+    background-color:green;
+    font-size: bold;
+}

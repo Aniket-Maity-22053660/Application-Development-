@@ -1,0 +1,75 @@
+.home{
+    border:1px solid black;
+    display:block;
+    
+    height:748px;
+    width:748px;
+     
+    margin:0 auto; 
+     
+}
+.home .container{
+    height:748px;
+    width:748px;
+    display:grid;
+    background-color: black;
+    grid-template-areas:'box1 box2 box2 box2'
+                        'box3 box4 box4 box5'
+                        'box3 box4 box4 box9'
+                        'box6 box7 box8 box9';
+    gap:9px;
+}
+.div1{
+    grid-area: box1;
+    background-color: red;
+    width:320px;
+    height:414px;
+}
+.div2{
+    grid-area: box2;
+    background-color:antiquewhite;
+    width:419px;
+    height:414px;
+}
+.div3{
+    grid-area: box3;
+    background-color: antiquewhite;
+    height:295px;
+    width:320px;
+}
+.div4{
+    grid-area: box4;
+    background-color: antiquewhite;
+    width:360px;
+    height:295px;
+}
+.div5{
+    grid-area: box5;
+    background-color: darkblue;
+    height:130px;
+    width:50px;
+}
+.div6{
+    grid-area: box6;
+    background-color: antiquewhite;
+    height:20px;
+    width:320px;
+}
+.div7{
+    grid-area: box7;
+    background-color: gold;
+    height:20px;
+    width:198px;
+}
+.div8{
+    grid-area: box8;
+    background-color: black;
+    height:20px;
+    width:153px;
+}
+.div9{
+    grid-area: box9;
+    background-color:antiquewhite;
+    height:184px;
+    width:50px;
+}

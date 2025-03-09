@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+    
+}
+nav {
+    padding:20px;
+   
+}
+.container_main{
+    display:flex;
+    justify-content:space-between;
+    margin:0px auto;
+    max-width: 980px;
+    flex-wrap:wrap;
+}
+nav a{
+    font-size:23px;
+    color:#3e2723;
+    font-weight:500;
+    margin:4.5px;
+}
+.body_main{
+    display:grid;
+    grid-template-columns: repeat(auto-fill , minmax(500px , auto));
+    grid-template-rows: repeat(auto-fill , minmax(500px , auto));
+    gap:0px;
+     
+     
+}
+
+.body_main .div2 {
+    background-image:url("Aniket Maity.jpg");
+    background-position: left top;
+    width:auto;
+    min-height: 500px;
+    background-size:cover;
+    border-radius: 30px;
+    margin:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.body_main .div1{
+    text-align:center;
+    padding:150px;
+    margin:10px;
+    padding-top:90px;
+}
+.content2{
+    text-align:center;
+    font-weight:900;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:600px;
+    background-image: url(pexels-pixabay-235992.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:20px;
+    margin:0  auto;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+.parent ul{
+    list-style-type: none;
+}
